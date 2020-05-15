@@ -10,4 +10,4 @@ public class SchoolManagementServiceApplication {
 		SpringApplication.run(SchoolManagementServiceApplication.class, args);
 	}
 
-}sahoo
+}
