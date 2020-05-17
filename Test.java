@@ -18,6 +18,7 @@ public class Test {
 			Product product = (Product) query.uniqueResult();
 			ses.delete(product);
 			tx.commit();
+			System.out.println("Papun is adding sopln");
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
