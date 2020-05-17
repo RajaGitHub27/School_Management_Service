@@ -7,7 +7,7 @@ import org.hibernate.Transaction;
 import com.app.model.Product;
 import com.app.util.HibernateUtil;
 
-public class Test {
+public class HqlNamedParameterTest {
 
 	public static void main(String[] args) {
 		try(Session ses = HibernateUtil.getSf().openSession()) {
